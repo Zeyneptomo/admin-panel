@@ -1,16 +1,124 @@
-# React + Vite
+# Admin Panel Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Proje Hakkında
 
-Currently, two official plugins are available:
+Bu proje, React ve Vite kullanılarak geliştirilmiş bir Admin Panel uygulamasıdır. Uygulama; ürün, müşteri ve sipariş yönetimini tek bir panel üzerinden gerçekleştirmeyi amaçlamaktadır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Veriler tarayıcı üzerinde Local Storage kullanılarak saklanmaktadır. Böylece sayfa yenilendiğinde veriler korunmaktadır.
 
-## React Compiler
+## Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Kullanıcı Girişi
 
-## Expanding the ESLint configuration
+* Giriş ekranı
+* Oturum kontrolü
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### Rol Yönetimi
+
+* Admin kullanıcısı
+* Personel kullanıcısı
+* Yetkiye göre menü gösterimi
+
+### Ürün Yönetimi
+
+* Ürün ekleme
+* Ürün düzenleme
+* Ürün silme
+* Ürün arama
+* Local Storage ile veri saklama
+
+### Müşteri Yönetimi
+
+* Müşteri ekleme
+* Müşteri düzenleme
+* Müşteri silme
+* Müşteri arama
+
+### Sipariş Yönetimi
+
+* Sipariş ekleme
+* Sipariş düzenleme
+* Sipariş silme
+* Sipariş arama
+
+### Raporlar
+
+* Toplam ürün sayısı
+* Toplam müşteri sayısı
+* Toplam sipariş sayısı
+* Toplam stok miktarı
+* Son eklenen ürünler
+* Son siparişler
+* Son müşteriler
+* Kategori dağılımı
+
+### Ayarlar
+
+* Firma bilgileri yönetimi
+* Firma adı
+* Firma telefonu
+* Firma adresi
+
+
+
+## Kullanılan Teknolojiler
+
+* React
+* Vite
+* React Router DOM
+* Bootstrap 5
+* Bootstrap Icons
+* JavaScript (ES6+)
+* Local Storage
+* CSS3
+
+## Kurulum
+
+Projeyi çalıştırmak için:
+
+```bash
+npm install
+npm run dev
+```
+
+Uygulama varsayılan olarak aşağıdaki adreste çalışacaktır:
+
+```text
+http://localhost:5173
+```
+
+## Demo Kullanıcılar
+
+### Admin
+
+E-posta:
+
+```text
+admin@gmail.com
+```
+
+Şifre:
+
+```text
+admin
+```
+
+### Personel
+
+E-posta:
+
+```text
+personel@gmail.com
+```
+
+Şifre:
+
+```text
+personel
+```
+
+
+
+
+
