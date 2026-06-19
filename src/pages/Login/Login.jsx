@@ -66,7 +66,7 @@ function Login() {
       >
 
         <h2 className="text-white text-center mb-4">
-          Admin Girişi
+          Giriş
         </h2>
 
         <input

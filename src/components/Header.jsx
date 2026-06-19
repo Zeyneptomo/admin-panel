@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <div className="header d-flex justify-content-between align-items-center px-4 py-3">
@@ -21,7 +23,14 @@ function Header() {
 
         <div className="d-flex align-items-center gap-2">
           <i className="bi bi-person-circle fs-4"></i>
-          <span>Admin</span>
+
+          <Link
+            to="/login"
+            className="text-white text-decoration-none"
+          >
+            Giriş Yap
+          </Link>
+
         </div>
 
       </div>
